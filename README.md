@@ -23,7 +23,7 @@ A Streamlit application that uses the Groq API with Llama model (llama3-70b-8192
    ```bash
    pip install -r requirements.txt
    ```
-4. Create a `.env` file in the project root and add your Groq API key:
+4. Create a `.env` file and add your Groq API key:
    ```
    GROQ_API_KEY=your_api_key_here
    ```
