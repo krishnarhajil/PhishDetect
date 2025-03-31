@@ -17,7 +17,7 @@ A Streamlit application that uses the Groq API with Llama model (llama3-70b-8192
 
 1. Clone this repository.
    ```bash
-   git clone https://github.com/krishnarhajil/PhishDetect.git
+   git clone https://github.com/krishnarhajil/PhishDetect
    cd PhishDetect
 3. Install the required dependencies:
    ```bash
