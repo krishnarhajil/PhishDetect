@@ -9,8 +9,8 @@ load_dotenv()
 
 class PhishingDetector:
     def __init__(self):
-        # Initialize with a tiny classification model
-        self.model_name = "prajjwal1/bert-tiny"  # Much smaller model
+
+        self.model_name = "llama3-70b-8192" 
         print("Loading model and tokenizer...")
         self.tokenizer = AutoTokenizer.from_pretrained(self.model_name)
         self.model = AutoModelForSequenceClassification.from_pretrained(
